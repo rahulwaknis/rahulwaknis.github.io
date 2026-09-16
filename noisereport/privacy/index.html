@@ -1,1 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
 
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <meta
+    name="description"
+    content="Privacy Policy for NoiseReport, an Android application developed by Tactility Media."
+  />
+
+  <title>Privacy Policy | NoiseReport</title>
+
+  <!-- NoiseReport heading font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <style>
+    :root {
+      --ivory: #F7F3E8;
+      --navy: #18232E;
+      --slate: #B8C8D5;
+      --amber: #D19A35;
+
+      --white: #FFFFFF;
+      --muted-text: #5D6872;
+      --border: rgba(24, 35, 46, 0.12);
+      --soft-slate: rgba(184, 200, 213, 0.22);
+
+      --content-width: 820px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--ivory);
+      color: var(--navy);
+
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+
+      font-size: 17px;
+      line-height: 1.75;
+    }
+
+    a {
+      color: var(--navy);
+      text-decoration-color: var(--amber);
+      text-decoration-thickness: 2px;
+      text-underline-offset: 3px;
+    }
+
+    a:hover {
+      color: var(--amber);
+    }
+
+    .page-shell {
+      width: min(calc(100% - 40px), var(--content-width));
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 64px 0 40px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+
+      margin-bottom: 42px;
+
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+
+    .brand-mark {
+      width: 12px;
+      height: 12px;
+
+      border-radius: 50%;
+      background: var(--amber);
+    }
+
+    .brand-name {
+      color: var(--navy);
+      font-size: 15px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    h1,
+    h2 {
+      font-family: "Libre Baskerville", Georgia, serif;
+    }
+
+    h1 {
+      margin: 0 0 18px;
+
+      font-size: clamp(36px, 7vw, 56px);
+      line-height: 1.15;
+      font-weight: 700;
+      letter-spacing: -0.025em;
+    }
+
+    .intro {
+      max-width: 700px;
+
+      margin: 0;
+
+      color: var(--muted-text);
+      font-size: 19px;
+      line-height: 1.65;
+    }
+
+    .effective-date {
+      display: inline-block;
+
+      margin-top: 28px;
+      padding: 8px 14px;
+
+      background: var(--soft-slate);
+      border-radius: 999px;
+
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .divider {
+      width: 100%;
+      height: 1px;
+
+      margin-top: 48px;
+
+      background: var(--border);
+    }
+
+    main {
+      padding-bottom: 80px;
+    }
+
+    section {
+      padding: 38px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    section:last-of-type {
+      border-bottom: none;
+    }
+
+    h2 {
+      margin: 0 0 18px;
+
+      font-size: 25px;
+      line-height: 1.35;
+    }
+
+    h3 {
+      margin: 28px 0 8px;
+
+      font-size: 18px;
+      line-height: 1.4;
+    }
+
+    p {
+      margin: 0 0 18px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin: 14px 0 20px;
+      padding-left: 26px;
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
+    strong {
+      font-weight: 650;
+    }
+
+    .notice {
+      margin: 24px 0;
+      padding: 20px 22px;
+
+      background: rgba(209, 154, 53, 0.10);
+      border-left: 4px solid var(--amber);
+      border-radius: 6px;
+    }
+
+    .contact-card {
+      margin-top: 20px;
+      padding: 24px;
+
+      background: rgba(255, 255, 255, 0.45);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+
+    .contact-card p {
+      margin: 5px 0;
+    }
+
+    footer {
+      padding: 30px 0 50px;
+
+      color: var(--muted-text);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        font-size: 16px;
+      }
+
+      .page-shell {
+        width: min(calc(100% - 30px), var(--content-width));
+      }
+
+      header {
+        padding-top: 42px;
+      }
+
+      .brand {
+        margin-bottom: 30px;
+      }
+
+      section {
+        padding: 30px 0;
+      }
+
+      h2 {
+        font-size: 22px;
+      }
+    }
+
+    @media print {
+      body {
+        background: white;
+      }
+
+      .page-shell {
+        width: 100%;
+        max-width: none;
+      }
+
+      header,
+      section {
+        break-inside: avoid;
+      }
+
+      footer {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="page-shell">
+
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">NoiseReport</span>
+      </div>
+
+      <h1>Privacy Policy</h1>
+
+      <p class="intro">
+        NoiseReport is an Android application developed and published by
+        Tactility Media. This Privacy Policy explains how NoiseReport accesses,
+        uses, stores, and shares information when you use the app.
+      </p>
+
+      <div class="effective-date">
+        Effective date: 16 September 2026
+      </div>
+
+      <div class="divider"></div>
+
+    </div>
+  </header>
+
+  <main class="page-shell">
+
+    <section>
+      <h2>Information NoiseReport accesses</h2>
+
+      <p>
+        NoiseReport may request access to the following device information
+        and permissions.
+      </p>
+
+      <h3>Microphone</h3>
+
+      <p>
+        NoiseReport uses the device microphone while a noise measurement is
+        actively running in order to estimate surrounding sound levels.
+      </p>
+
+      <p>
+        Raw audio recordings are not saved by NoiseReport and are not
+        uploaded to a NoiseReport server.
+      </p>
+
+      <h3>Location</h3>
+
+      <p>
+        If you grant location permission, NoiseReport may use your device
+        location to add location information to an incident report.
+      </p>
+
+      <p>
+        Location information may include approximate or precise coordinates,
+        location accuracy, and a human-readable location obtained through
+        Android location services.
+      </p>
+
+      <p>
+        Location information associated with an incident is stored locally
+        on your device.
+      </p>
+
+      <h3>Camera and photos</h3>
+
+      <p>
+        NoiseReport allows you to optionally attach a photograph to an
+        incident.
+      </p>
+
+      <p>
+        Photos selected or captured for an incident are stored locally on
+        your device as part of that incident.
+      </p>
+
+      <p>
+        NoiseReport does not automatically upload photographs to any
+        NoiseReport-operated server.
+      </p>
+    </section>
+
+
+    <section>
+      <h2>Incident information</h2>
+
+      <p>
+        NoiseReport allows you to create and save incident records containing
+        information such as:
+      </p>
+
+      <ul>
+        <li>Measured noise levels</li>
+        <li>Date and time</li>
+        <li>Measurement duration</li>
+        <li>Location information, if enabled</li>
+        <li>Noise-source information entered by you</li>
+        <li>Notes entered by you</li>
+        <li>An optional photograph</li>
+      </ul>
+
+      <p>
+        Incident records are stored locally on your device.
+      </p>
+
+      <p>
+        NoiseReport currently does not operate a cloud account system or a
+        central server for storing incident records.
+      </p>
+    </section>
+
+
+    <section>
+      <h2>Email complaint settings</h2>
+
+      <p>
+        NoiseReport allows you to save email recipient addresses, including
+        To, CC and BCC recipients, along with default complaint subject and
+        body templates.
+      </p>
+
+      <p>
+        These settings are stored locally on your device.
+      </p>
+
+      <p>
+        NoiseReport does not send emails automatically.
+      </p>
+
+      <p>
+        When you choose to prepare an email complaint, NoiseReport passes the
+        relevant information to an email application chosen by you. You remain
+        responsible for reviewing and sending the email.
+      </p>
+    </section>
+
+
+    <section>
+      <h2>Sharing reports</h2>
+
+      <p>
+        NoiseReport can generate incident summaries and PDF reports.
+      </p>
+
+      <p>
+        When you choose to share a summary, PDF, photograph, or prepared
+        complaint, information may leave your device through another
+        application or service selected by you, such as an email application,
+        messaging application, or cloud service.
+      </p>
+
+      <p>
+        These transfers occur only when you initiate the sharing action.
+      </p>
+
+      <p>
+        NoiseReport does not control the privacy practices of third-party
+        applications or services you choose to use for sharing.
+      </p>
+    </section>
+
+
+    <section>
+      <h2>Data collection by NoiseReport</h2>
+
+      <p>
+        NoiseReport currently does not require user accounts and does not
+        operate a backend service that collects or stores your incident
+        information.
+      </p>
+
+      <p>
+        NoiseReport does not currently use advertising SDKs, third-party
+        analytics SDKs, behavioral tracking, or profiling technologies.
+      </p>
+
+      <div class="notice">
+        Information processed locally on your device is not transmitted to
+        Tactility Media unless you independently choose to send it to us.
+      </div>
+    </section>
+
+
+    <section>
+      <h2>Data storage and retention</h2>
+
+      <p>
+        Incident records, photographs, email presets, and app preferences are
+        stored locally on your device.
+      </p>
+
+      <p>They remain stored until:</p>
+
+      <ul>
+        <li>
+          You delete individual information where the app provides that
+          option
+        </li>
+
+        <li>
+          You use NoiseReport's history-deletion functionality
+        </li>
+
+        <li>
+          You clear the application's data through Android settings
+        </li>
+
+        <li>
+          You uninstall the application
+        </li>
+      </ul>
+
+      <p>
+        Uninstalling NoiseReport normally removes locally stored application
+        data according to Android's standard application-storage behavior.
+      </p>
+    </section>
+
+
+    <section>
+      <h2>Data security</h2>
+
+      <p>
+        NoiseReport uses Android's application storage and permission systems
+        to help protect locally stored information.
+      </p>
+
+      <p>
+        NoiseReport does not intentionally transmit incident information to a
+        NoiseReport-operated server.
+      </p>
+
+      <p>
+        When you choose to share information using another application or
+        service, the security and handling of that information are governed by
+        the selected service and its privacy practices.
+      </p>
+    </section>
+
+
+    <section>
+      <h2>Device permissions</h2>
+
+      <p>
+        You can grant or revoke permissions such as microphone, camera, and
+        location through Android system settings.
+      </p>
+
+      <p>
+        Some NoiseReport features may not function if the corresponding
+        permission is denied.
+      </p>
+    </section>
+
+
+    <section>
+      <h2>Noise measurements</h2>
+
+      <p>
+        NoiseReport provides indicative environmental noise measurements using
+        the microphone and audio-processing capabilities of your Android
+        device.
+      </p>
+
+      <div class="notice">
+        <strong>NoiseReport is not a certified sound-level meter.</strong>
+        Measurements can vary depending on device hardware, Android audio
+        processing, environmental conditions, device placement, and other
+        factors.
+      </div>
+
+      <p>
+        This measurement limitation does not affect how NoiseReport handles
+        your personal data, but is included here for transparency about how
+        microphone access is used.
+      </p>
+    </section>
+
+
+    <section>
+      <h2>Children</h2>
+
+      <p>
+        NoiseReport is not specifically designed for children and does not
+        knowingly operate services intended to collect personal information
+        from children.
+      </p>
+    </section>
+
+
+    <section>
+      <h2>Changes to this Privacy Policy</h2>
+
+      <p>
+        This Privacy Policy may be updated if NoiseReport's functionality or
+        data-handling practices change.
+      </p>
+
+      <p>
+        The effective date shown at the top of this policy will be updated
+        when material changes are made.
+      </p>
+
+      <p>
+        If NoiseReport later introduces features such as cloud storage, user
+        accounts, analytics, centralized incident databases, or other network
+        services, this Privacy Policy and the Google Play Data Safety
+        declaration will be updated accordingly.
+      </p>
+    </section>
+
+
+    <section>
+      <h2>Contact</h2>
+
+      <p>
+        For privacy-related questions about NoiseReport, contact:
+      </p>
+
+      <div class="contact-card">
+        <p><strong>Developer:</strong> Tactility Media</p>
+
+        <p><strong>App:</strong> NoiseReport</p>
+
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:support.tactilitymedia@gmail.com">
+            support.tactilitymedia@gmail.com
+          </a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <div class="page-shell">
+      © 2026 Tactility Media · NoiseReport
+    </div>
+  </footer>
+
+</body>
+</html>
